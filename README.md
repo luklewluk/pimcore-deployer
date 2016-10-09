@@ -13,6 +13,6 @@ This step is optional because Deployer can be installed globally.
 3. (Optional) Add [pimcore-sak](https://github.com/DivanteLtd/pimcore-sak) to the repository as it allows migrating Pimcore classes
 automatically (just remember to use `php extra/shell/MigrateCommit.php` to export them to JSON).
 4. Create `servers.yml` file - servers configuration. You can base on `servers.yml.dist`.
-5. Set you project repository address in `deploy.php`. Feel free to add your own scripts - [Deployer Docs](http://deployer.org/docs/getting-started).
+5. Set you project repository address in `deploy.php`. Optionally add your own scripts - [Deployer Docs](http://deployer.org/docs/getting-started).
 6. (Deployment) Go to your project directory in terminal and run `php vendor/bin/dep deploy prod`
 
