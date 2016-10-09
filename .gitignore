@@ -1,0 +1,22 @@
+# composer
+/vendor/*
+!/vendor/.dummy
+/website/var/assets/*
+/website/var/backup/*
+/website/var/cache/*
+/website/var/classes/*
+/website/var/config/*
+/website/var/email/*
+/website/var/log/*
+/website/var/recyclebin/*
+/website/var/search/*
+/website/var/system/*
+/website/var/versions/*
+/website/var/tmp/*
+
+# PhpStorm / IDEA
+.idea
+# NetBeans
+nbproject
+
+servers.yml
